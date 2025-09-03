@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masterizando a Negação em Francês</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0A192F;
+            color: #E2E8F0;
+            line-height: 1.6;
+        }
+        .gradient-text-title {
+            background: linear-gradient(90deg, #FF3300, #FFFFCC, #00CCCC, #FF00FF);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .gradient-text-1 {
+            background: linear-gradient(90deg, #FFFFCC, #00CCCC);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .gradient-text-2 {
+            background: linear-gradient(90deg, #FF3300, #00CCCC);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .gradient-text-3 {
+            background: linear-gradient(90deg, #FF00FF, #FFFFCC);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .lesson-card {
+            background-color: #112240;
+            border-radius: 1rem;
+            padding: 2.5rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .btn {
+            padding: 0.75rem 1.5rem;
+            border-radius: 9999px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1-px rgba(0, 0, 0, 0.06);
+        }
+        .btn:hover {
+            transform: translateY(-2px);
+        }
+        .btn-orange {
+            background-color: #FF3300;
+            color: white;
+        }
+        .btn-magenta {
+            background-color: #FF00FF;
+            color: white;
+        }
+        .language-fr {
+            color: #9333ea;
+        }
+        .language-pt {
+            color: #3b82f6;
+        }
+        .highlight-keyword {
+            font-weight: bold;
+            text-decoration: underline;
+            color: #FFD700;
+        }
+        .quiz-option {
+            background-color: #4A5568;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 9999px;
+            cursor: pointer;
+            transition: transform 0.2s ease, background-color 0.2s ease;
+        }
+        .quiz-option:hover {
+            transform: translateY(-2px);
+            background-color: #718096;
+        }
+        .quiz-option.correct {
+            background-color: #10B981;
+        }
+        .quiz-option.incorrect {
+            background-color: #EF4444;
+        }
+        .fill-in-the-blank {
+            background-color: #1A202C;
+            border: 2px dashed #4A5568;
+            border-radius: 0.5rem;
+            padding: 0.5rem 1rem;
+            display: inline-block;
+            min-width: 100px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body class="p-6">
+    <div class="max-w-4xl mx-auto space-y-12">
+        <header class="text-center mb-10">
+            <h1 class="text-5xl md:text-6xl font-extrabold leading-tight">
+                <span class="gradient-text-title">Maîtriser la Négation en Français (metrizê la negassión an françê)</span>
+            </h1>
+            <p class="mt-4 text-lg text-slate-400">
+                Bem-vindo! Eu sou seu professor e estou aqui para tornar o francês fácil para você.
+            </p>
+            <p class="mt-2 text-lg text-slate-300">
+                Olá, queridos brasileiros! Vamos desvendar juntos os segredos da negação em francês.
+            </p>
+        </header>
+
+        <!-- SECTION 1: THE BASIC RULE -->
+        <section class="lesson-card space-y-6">
+            <h2 class="text-3xl font-bold"><span class="gradient-text-1">1. A Regra Básica: <span class="highlight-keyword">ne... pas</span></span></h2>
+            <p class="text-slate-300">
+                A forma mais comum de negar uma frase em francês é usando a dupla **<span class="highlight-keyword">ne... pas</span>**. Essas duas palavras agem como um par de parênteses ao redor do verbo. 
+            </p>
+            <p class="text-slate-300 font-bold">A Regra Simples:</p>
+            <ul class="list-disc list-inside pl-4 space-y-2 text-slate-300">
+                <li><span class="highlight-keyword">ne</span> vem antes do verbo.</li>
+                <li><span class="highlight-keyword">pas</span> vem depois do verbo.</li>
+            </ul>
+            <div class="bg-[#112240] rounded-xl p-6 border border-slate-700">
+                <p class="font-bold text-lg text-[#FFFFCC] mb-2">
+                    Estrutura: Sujeito + <span class="highlight-keyword">ne</span> + Verbo + <span class="highlight-keyword">pas</span> + Resto da Frase
+                </p>
+                <div class="mt-4">
+                    <ul class="list-disc list-inside pl-4 mt-2 space-y-4 text-slate-300">
+                        <li>
+                            <span class="language-fr">Frase Afirmativa:</span> Je parle français. (jê parlê françê)
+                            <br><span class="language-fr">Frase Negativa:</span> Je <span class="highlight-keyword">ne</span> parle <span class="highlight-keyword">pas</span> français. (jê nê parlê pa françê)
+                        </li>
+                        <li>
+                            <span class="language-fr">Frase Afirmativa:</span> Nous aimons le chocolat. (nu zaimon lê chocolá)
+                            <br><span class="language-fr">Frase Negativa:</span> Nous <span class="highlight-keyword">n'</span>aimons <span class="highlight-keyword">pas</span> le chocolat. (nu naimon pa lê chocolá)
+                            <br><span class="text-sm italic text-slate-400">Atenção: 'ne' se torna 'n'' antes de um verbo que começa com vogal ou 'h' mudo.</span>
+                        </li>
+                        <li>
+                            <span class="language-fr">Frase Afirmativa:</span> Tu parles anglais. (tu parlê anglai)
+                            <br><span class="language-fr">Frase Negativa:</span> Tu <span class="highlight-keyword">ne</span> parles <span class="highlight-keyword">pas</span> anglais. (tu nê parlê pa anglai)
+                        </li>
+                        <li>
+                            <span class="language-fr">Frase Afirmativa:</span> Elle étudie la musique. (el êstudi la muzik)
+                            <br><span class="language-fr">Frase Negativa:</span> Elle <span class="highlight-keyword">n'</span>étudie <span class="highlight-keyword">pas</span> la musique. (el n'êstudi pa la muzik)
+                        </li>
+                        <li>
+                            <span class="language-fr">Frase Afirmativa:</span> Ils habitent en France. (il zabit an frans)
+                            <br><span class="language-fr">Frase Negativa:</span> Ils <span class="highlight-keyword">n'</span>habitent <span class="highlight-keyword">pas</span> en France. (il n'abit pa an frans)
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="bg-[#112240] rounded-xl p-6 border border-slate-700">
+                <p class="font-bold mb-2">Vamos praticar!</p>
+                <p class="text-slate-300">Complete a frase: 'Tu aimes le fromage.' (tu em lê fromaj)</p>
+                <div class="flex items-center space-x-2 mt-4">
+                    <span class="text-lg text-white">Tu</span>
+                    <input id="neInput" type="text" placeholder="ne..." class="p-3 bg-slate-800 border-2 border-slate-700 rounded-lg w-24 text-white text-center">
+                    <span class="text-lg text-white">aimes</span>
+                    <input id="pasInput" type="text" placeholder="pas..." class="p-3 bg-slate-800 border-2 border-slate-700 rounded-lg w-24 text-white text-center">
+                    <span class="text-lg text-white">le fromage.</span>
+                </div>
+                <div id="basicFeedback" class="mt-4 text-center"></div>
+                <button onclick="checkBasicNegative()" class="btn btn-orange mt-4">Checar Resposta</button>
+            </div>
+        </section>
+
+        <!-- SECTION 2: OTHER NEGATIVE FORMS -->
+        <section class="lesson-card space-y-6">
+            <h2 class="text-3xl font-bold"><span class="gradient-text-2">2. Outras Formas de Negação</span></h2>
+            <p class="text-slate-300 italic">
+                Além do <span class="highlight-keyword">ne... pas</span>, o francês usa outras combinações para dar uma negação mais específica, como "nunca" ou "nada". Pense nelas como palavras que substituem o <span class="highlight-keyword">pas</span> para expressar um sentido mais preciso.
+            </p>
+            <div class="bg-[#112240] rounded-xl p-6 border border-slate-700">
+                <ul class="list-disc list-inside pl-4 mt-2 space-y-6 text-slate-300">
+                    <li>
+                        <span class="highlight-keyword">ne... jamais</span> (nunca)<br>
+                        <span class="language-fr">Frase:</span> Il <span class="highlight-keyword">ne</span> mange <span class="highlight-keyword">jamais</span> de viande. (il nê manj jamais dê viand)
+                        <br><span class="language-fr">Frase:</span> Tu <span class="highlight-keyword">ne</span> manges <span class="highlight-keyword">jamais</span> de fruits. (tu nê manj jamais dê frui)
+                        <br><span class="language-fr">Frase:</span> Nous <span class="highlight-keyword">n'</span>allons <span class="highlight-keyword">jamais</span> à la plage. (nu nallon jamais a la plaj)
+                        <br><span class="language-fr">Frase:</span> Je <span class="highlight-keyword">ne</span> voyage <span class="highlight-keyword">jamais</span> en hiver. (jê nê vuoiage jamais an hiver)
+                        <br><span class="language-fr">Frase:</span> Elle <span class="highlight-keyword">n'</span>oublie <span class="highlight-keyword">jamais</span> mon anniversaire. (el n'ubli jamais mon anniverser)
+                    </li>
+                    <li>
+                        <span class="highlight-keyword">ne... plus</span> (não mais, já não)<br>
+                        <span class="language-fr">Frase:</span> Vous <span class="highlight-keyword">ne</span> travaillez <span class="highlight-keyword">plus</span> ici. (vu nê travaiê plu zici)
+                        <br><span class="language-fr">Frase:</span> Elle <span class="highlight-keyword">ne</span> danse <span class="highlight-keyword">plus</span>. (el nê dansê plu)
+                        <br><span class="language-fr">Frase:</span> Il <span class="highlight-keyword">ne</span> fume <span class="highlight-keyword">plus</span>. (il nê fum plu)
+                        <br><span class="language-fr">Frase:</span> Je <span class="highlight-keyword">ne</span> t'aime <span class="highlight-keyword">plus</span>. (jê nê tem plu)
+                        <br><span class="language-fr">Frase:</span> Nous <span class="highlight-keyword">ne</span> nous voyons <span class="highlight-keyword">plus</span>. (nu nê nu vuaión plu)
+                    </li>
+                    <li>
+                        <span class="highlight-keyword">ne... rien</span> (nada)<br>
+                        <span class="language-fr">Frase:</span> Elle <span class="highlight-keyword">ne</span> dit <span class="highlight-keyword">rien</span>. (el nê di rian)
+                        <br><span class="language-fr">Frase:</span> Vous <span class="highlight-keyword">ne</span> savez <span class="highlight-keyword">rien</span> de ça. (vu nê savê rian dê sa)
+                        <br><span class="language-fr">Frase:</span> Je <span class="highlight-keyword">n'</span>ai <span class="highlight-keyword">rien</span> à faire. (jê nê rian a fer)
+                        <br><span class="language-fr">Frase:</span> Il n'y a <span class="highlight-keyword">rien</span> à manger. (il ni a rian a manjê)
+                        <br><span class="language-fr">Frase:</span> Nous <span class="highlight-keyword">n'</span>avons <span class="highlight-keyword">rien</span> vu. (nu navon rian vu)
+                    </li>
+                    <li>
+                        <span class="highlight-keyword">ne... personne</span> (ninguém)<br>
+                        <span class="language-fr">Frase:</span> Je <span class="highlight-keyword">ne</span> vois <span class="highlight-keyword">personne</span>. (jê nê vua person)
+                        <br><span class="language-fr">Frase:</span> <span class="highlight-keyword">Personne ne</span> m'a téléphoné. (person nê ma telefône)
+                        <br><span class="language-fr">Frase:</span> Il n'y a <span class="highlight-keyword">personne</span> dans la maison. (il ni a person dan la mêzon)
+                        <br><span class="language-fr">Frase:</span> Je <span class="highlight-keyword">n'</span>ai parlé à <span class="highlight-keyword">personne</span>. (jê nê parle a person)
+                        <br><span class="language-fr">Frase:</span> Nous <span class="highlight-keyword">ne</span> connaissons <span class="highlight-keyword">personne</span> ici. (nu nê connaisson person zici)
+                    </li>
+                    <li>
+                        <span class="highlight-keyword">ne... aucun(e)</span> (nenhum/nenhuma)<br>
+                        <span class="language-fr">Frase:</span> Tu <span class="highlight-keyword">n'</span>as <span class="highlight-keyword">aucune</span> idée. (tu na oqun ide)
+                        <br><span class="language-fr">Frase:</span> Je <span class="highlight-keyword">n'</span>ai <span class="highlight-keyword">aucune</span> excuse. (jê na oqun excus)
+                        <br><span class="language-fr">Frase:</span> Il n'y a <span class="highlight-keyword">aucun</span> problema. (il ni a oqun problêm)
+                        <br><span class="language-fr">Frase:</span> Nous <span class="highlight-keyword">n'</span>avons <span class="highlight-keyword">aucun</span> regret. (nu navon oqun regrê)
+                        <br><span class="language-fr">Frase:</span> Je <span class="highlight-keyword">ne</span> vois <span class="highlight-keyword">aucune</span> raison de partir. (jê nê vua oqun rêzon dê partir)
+                    </li>
+                    <li>
+                        <span class="highlight-keyword">ne... point</span> (absolutamente não)<br>
+                        <span class="language-fr">Frase:</span> Je <span class="highlight-keyword">ne</span> sais <span class="highlight-keyword">point</span>. (jê nê sê puan)
+                        <br><span class="language-fr">Frase:</span> On <span class="highlight-keyword">ne</span> voit <span class="highlight-keyword">point</span> la différence. (on nê vua puan la diferanç)
+                        <br><span class="language-fr">Frase:</span> Je <span class="highlight-keyword">n'</span>ai <span class="highlight-keyword">point</span> de doutes. (jê nê puan dê dut)
+                        <br><span class="language-fr">Frase:</span> Elle <span class="highlight-keyword">ne</span> se plaint <span class="highlight-keyword">point</span>. (el nê sê plain puan)
+                        <br><span class="language-fr">Frase:</span> Il n'y a <span class="highlight-keyword">point</span> de solution. (il ni a puan dê solution)
+                        <br><span class="text-sm italic text-slate-400">Atenção: 'ne... point' é uma forma mais formal e arcaica de negação, raramente usada na fala moderna.</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- QUIZ SECTION -->
+        <section class="lesson-card space-y-6">
+            <h2 class="text-3xl font-bold"><span class="gradient-text-3">Quiz: Teste seu Conhecimento!</span></h2>
+            <p class="text-slate-300">
+                Escolha a melhor opção para completar a frase de forma negativa. Boa sorte!
+            </p>
+            <div id="quiz-container" class="space-y-6">
+                <!-- Quiz questions and options will be dynamically rendered here -->
+            </div>
+            <div id="quiz-feedback" class="text-center font-bold text-xl mt-4"></div>
+            <div class="flex justify-center mt-6">
+                <button id="next-quiz-btn" class="btn btn-orange hidden">Próxima Pergunta</button>
+            </div>
+        </section>
+
+    </div>
+
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-app.js";
+        import { getAuth, signInAnonymously, signInWithCustomToken, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-auth.js";
+        import { getFirestore, doc, setDoc, onSnapshot } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js";
+
+        // Global variables provided by the Canvas environment
+        const appId = typeof __app_id !== 'undefined' ? __app_id : 'default-app-id';
+        const firebaseConfig = JSON.parse(typeof __firebase_config !== 'undefined' ? __firebase_config : '{}');
+        const initialAuthToken = typeof __initial_auth_token !== 'undefined' ? __initial_auth_token : null;
+
+        let db = null;
+        let auth = null;
+        let userId = null;
+        let isAuthReady = false;
+
+        // Initialize Firebase
+        if (firebaseConfig.apiKey) {
+            const app = initializeApp(firebaseConfig);
+            db = getFirestore(app);
+            auth = getAuth(app);
+        }
+
+        // Authentication State Listener
+        onAuthStateChanged(auth, async (user) => {
+            if (user) {
+                userId = user.uid;
+                isAuthReady = true;
+
+                // Start listening for real-time progress updates
+                const userDocRef = doc(db, `/artifacts/${appId}/users/${userId}/lessons/french-negative-lesson`);
+                onSnapshot(userDocRef, (docSnap) => {
+                    if (docSnap.exists()) {
+                        const data = docSnap.data();
+                        // You can add logic here to restore progress if needed
+                    }
+                });
+
+            } else {
+                // If no user, sign in anonymously to get a user ID
+                try {
+                    if (initialAuthToken) {
+                        await signInWithCustomToken(auth, initialAuthToken);
+                    } else {
+                        await signInAnonymously(auth);
+                    }
+                } catch (error) {
+                    console.error("Error during anonymous sign-in:", error);
+                }
+            }
+        });
+
+        const saveProgress = async (lessonPart) => {
+            if (!isAuthReady) return;
+            try {
+                const userDocRef = doc(db, `/artifacts/${appId}/users/${userId}/lessons/french-negative-lesson`);
+                await setDoc(userDocRef, { [lessonPart]: true }, { merge: true });
+            } catch (error) {
+                console.error("Error saving progress:", error);
+            }
+        };
+
+        window.checkBasicNegative = function() {
+            const neInput = document.getElementById('neInput').value.trim().toLowerCase();
+            const pasInput = document.getElementById('pasInput').value.trim().toLowerCase();
+            const feedbackElement = document.getElementById('basicFeedback');
+
+            if (neInput === 'ne' && pasInput === 'pas') {
+                feedbackElement.innerHTML = `<p class="text-green-400 font-bold">Correto! C'est parfait! (sê parfê!)</p>`;
+                saveProgress('basicNegativeComplete');
+            } else {
+                feedbackElement.innerHTML = `<p class="text-red-400 font-bold">Incorreto. Lembre-se, é '<span class="highlight-keyword">ne</span>' antes do verbo e '<span class="highlight-keyword">pas</span>' depois.</p>`;
+            }
+        };
+        
+        const quizzes = [
+            {
+                question: "Qual é a forma negativa de 'J'ai faim.' (Estou com fome.)?",
+                options: ["Je ne suis pas faim.", "J'ai ne pas faim.", "Je n'ai pas faim."],
+                answer: "Je n'ai pas faim."
+            },
+            {
+                question: "Como você diria 'Nós não falamos mais francês.'?",
+                options: ["Nous ne parlons pas français.", "Nous ne parlons plus français.", "Nous ne parlamos jamais français."],
+                answer: "Nous ne parlons plus français."
+            },
+            {
+                question: "Qual a negação para 'Je vois quelque chose.' (Eu vejo algo.)?",
+                options: ["Je ne vois rien.", "Je ne vois pas rien.", "Je vois rien."],
+                answer: "Je ne vois rien."
+            },
+            {
+                question: "A frase 'Il ne mange pas de viande.' significa:",
+                options: ["Ele não comeu carne.", "Ele nunca come carne.", "Ele não come carne."],
+                answer: "Ele não come carne."
+            },
+            {
+                question: "Como se traduz 'Eu nunca viajo.'?",
+                options: ["Je ne voyage pas.", "Je ne voyage jamais.", "Je voyage jamais."],
+                answer: "Je ne voyage jamais."
+            },
+            {
+                question: "Qual é a negação de 'Elle est toujours fatiguée.' (Ela está sempre cansada.)?",
+                options: ["Elle n'est pas fatiguée.", "Elle n'est plus fatiguée.", "Elle n'est jamais fatiguée."],
+                answer: "Elle n'est jamais fatiguée."
+            },
+            {
+                question: "Complete a frase: 'Je ___ ___ personne.' (Eu não vejo ninguém.)",
+                options: ["ne vois pas", "vois ne", "ne vois"],
+                answer: "ne vois"
+            },
+            {
+                question: "Qual a forma negativa correta para 'Tu as une idée.' (Você tem uma ideia.)?",
+                options: ["Tu n'as pas une ideia.", "Tu n'as aucune ideia.", "Tu n'as pas d'ideia."],
+                answer: "Tu n'as aucune ideia."
+            },
+            {
+                question: "Como se traduz 'Eles não trabalham mais.'?",
+                options: ["Ils ne travaillent pas plus.", "Ils ne travaillent plus.", "Ils ne travaillent jamais."],
+                answer: "Ils ne travaillent plus."
+            },
+            {
+                question: "Qual a forma negativa de 'C'est facile.' (É fácil.)?",
+                options: ["Ce n'est pas facile.", "C'est pas facile.", "Ce n'est rien facile."],
+                answer: "Ce n'est pas facile."
+            }
+        ];
+
+        let currentQuizIndex = 0;
+        const quizContainer = document.getElementById('quiz-container');
+        const nextQuizBtn = document.getElementById('next-quiz-btn');
+        const quizFeedback = document.getElementById('quiz-feedback');
+
+        function renderQuiz() {
+            if (currentQuizIndex >= quizzes.length) {
+                quizContainer.innerHTML = '<p class="text-green-400 text-2xl font-bold text-center">Parabéns! Você completou o quiz!</p>';
+                nextQuizBtn.classList.add('hidden');
+                return;
+            }
+
+            const currentQuiz = quizzes[currentQuizIndex];
+            quizContainer.innerHTML = `
+                <p class="text-xl font-bold mb-4">${currentQuiz.question}</p>
+                <div class="flex flex-col space-y-4">
+                    ${currentQuiz.options.map(option => `
+                        <button class="quiz-option" data-answer="${option}">${option}</button>
+                    `).join('')}
+                </div>
+            `;
+            quizFeedback.textContent = '';
+            nextQuizBtn.classList.add('hidden');
+
+            document.querySelectorAll('.quiz-option').forEach(button => {
+                button.addEventListener('click', handleQuizClick);
+            });
+        }
+
+        function handleQuizClick(event) {
+            const selectedOption = event.target;
+            const selectedAnswer = selectedOption.dataset.answer;
+            const correctAnswer = quizzes[currentQuizIndex].answer;
+
+            document.querySelectorAll('.quiz-option').forEach(button => {
+                button.classList.remove('incorrect');
+                button.classList.remove('correct');
+                button.disabled = true;
+                if (button.dataset.answer === correctAnswer) {
+                    button.classList.add('correct');
+                }
+            });
+
+            if (selectedAnswer === correctAnswer) {
+                quizFeedback.innerHTML = `<p class="text-green-400">Correto! Très bien! (tré bién!)</p>`;
+            } else {
+                selectedOption.classList.add('incorrect');
+                quizFeedback.innerHTML = `<p class="text-red-400">Incorreto. A resposta correta está destacada em verde.</p>`;
+            }
+            nextQuizBtn.classList.remove('hidden');
+        }
+
+        nextQuizBtn.addEventListener('click', () => {
+            currentQuizIndex++;
+            renderQuiz();
+        });
+
+        window.onload = () => {
+            renderQuiz();
+        };
+    </script>
+</body>
+</html>
